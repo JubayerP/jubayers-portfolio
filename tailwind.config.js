@@ -7,13 +7,15 @@ module.exports = {
     extend: {},
     fontFamily: {
       poppins: ['Poppins', 'sans-serif'],
-      roboto: ['Roboto', 'sans-serif']
+      roboto: ['Roboto', 'sans-serif'],
+      spaceGotesk: ['Space Grotesk', 'sans-serif']
     },
     colors: {
       primary: '#676CDB',
       secondary: '#222A36',
       base: '#FFFFFF',
-      transparent: '#ffffff00'
+      transparent: '#ffffff00',
+      accent: '#C4C4C4'
     }
   },
   plugins: [],
