@@ -20,7 +20,7 @@ const ExpCard = ({ exp }) => {
     };
     return (
         <motion.div
-            className='bg-accent px-10 py-8 hover:bg-primary duration-200 md:shadow-none shadow-xl'
+            className='bg-accent px-10 py-8 hover:bg-primary duration-200 md:shadow-none shadow-xl overflow-hidden'
             initial="offscreen"
             whileInView="onscreen"
             viewport={{ once: true, amount: 0.8 }}

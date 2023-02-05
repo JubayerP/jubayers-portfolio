@@ -9,7 +9,7 @@ const Banner = () => {
             <motion.div
                 className='flex md:flex-row flex-col lg:h-screen w-full mt-[-64px]'
             >
-                <div className='md:w-1/2 bg-secondary flex items-center md:py-0 py-20'>
+                <div className='md:w-1/2 bg-secondary flex items-center md:py-20 py-20'>
                     <div className='px-6'>
                         <motion.h1
                             initial={{ x: -100, opacity: 0 }}
