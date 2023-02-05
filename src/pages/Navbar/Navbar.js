@@ -14,9 +14,9 @@ const Navbar = () => {
                     <HiMenuAlt4 className='text-2xl text-base' />}
             </div>
             <div className='md:space-x-10 hidden  md:flex text-lg font-normal font-poppins w-full md:items-center md:w-auto text-base'>
-                <Link to='/'>Home</Link>
-                <Link to='/about'>About</Link>
-                <Link to='/services'>Services</Link>
+                <Link className='hover:text-primary duration-150' to='/'>Home</Link>
+                <Link className='hover:text-primary duration-150' to='/about'>About</Link>
+                <Link className='hover:text-primary duration-150' to='/services'>Services</Link>
             </div>
             <div className='md:flex hidden mr-5'>
                 <button className='bg-primary text-base text-sm font-normal font-poppins px-3 py-2 rounded'>Contact us</button>

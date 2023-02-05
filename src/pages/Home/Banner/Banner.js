@@ -2,6 +2,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { FiDownload } from 'react-icons/fi';
+import ScrollToTop from 'react-scroll-to-top';
 
 const Banner = () => {
     return (
@@ -46,6 +47,7 @@ const Banner = () => {
                     <img className='w-full h-full object-cover' src="https://i.ibb.co/FHW2zbv/Rectangle-3.png" alt="banner" />
                 </div>
             </motion.div>
+            <ScrollToTop top='200' style={{background: '#676CDB', display: 'flex', justifyContent: 'center', alignItems: 'center'}} width="20" height="20" color='white' smooth/>
         </AnimatePresence>
     );
 };
