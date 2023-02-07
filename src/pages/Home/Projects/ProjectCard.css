@@ -1,0 +1,17 @@
+.window {
+  margin: auto;
+  border-radius: 5px;
+  cursor: grab;
+}
+
+.window img {
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  height: 270px;
+  transition: 8s all ease;
+}
+
+.window:hover img {
+  object-position: bottom;
+}

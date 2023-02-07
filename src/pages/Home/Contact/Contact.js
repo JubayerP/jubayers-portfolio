@@ -1,8 +1,8 @@
 import React from 'react';
+import { BsArrowLeft } from 'react-icons/bs';
 import { RxLinkedinLogo } from 'react-icons/rx';
 import { SiFacebook } from 'react-icons/si';
 import { VscGithub } from 'react-icons/vsc';
-import { BsArrowLeft } from 'react-icons/bs';
 
 const Contact = () => {
 
@@ -45,7 +45,7 @@ const Contact = () => {
                         <textarea className='outline-none pl-2 py-3.5 bg-transparent border border-base text-base rounded w-full' id="desc" type="text" />
                     </div>
                     <div>
-                        <button className='emailSendBtn text-primary flex items-center gap-3 text-xl'>Send <BsArrowLeft className='rotate-180' size={25}/></button>
+                        <button className='emailSendBtn text-primary flex items-center gap-3 text-xl'>Send <BsArrowLeft className='rotate-180' size={25} /></button>
                     </div>
                 </form>
             </div>
